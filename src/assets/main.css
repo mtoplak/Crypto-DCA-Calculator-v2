@@ -1,0 +1,89 @@
+body{
+  background: linear-gradient(#242535 50%, #202731);
+  background-attachment: fixed;
+  color: #d6d2de;
+  margin: 15px;
+  word-wrap: break-word;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.title{
+  font-size: x-large;
+}
+
+.title1{
+  font-weight:bolder;
+  font-size: 23px;
+}
+
+.btn{
+  font-weight: bold;
+  color: #d6d2de;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+select{
+  -webkit-appearance: menulist !important
+}
+
+.input-form-group{
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 8px 15px 8px;
+  width: 20vw;
+  height: 8vw;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d6d2de;
+  box-shadow: 0px 10px 15px rgb(32 35 45 / 6%), 0 4px 6px rgb(32 35 45 / 6%);
+  border-radius: 16px;
+  font-size: large;
+  min-width: 205px;
+  min-height: 118px;
+  max-width: 220px;
+  max-height: 118px;
+  color: #d6d2de;
+  font-weight: 700;
+  text-align: center;
+}
+
+input, select{
+  width: 10em !important;
+  display: block;
+  margin: auto;
+}
+
+.strong {
+  font-weight: 800;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
+
+.coin{
+  white-space:nowrap;
+}
+
+#result{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+#copy{
+  background-color: #242535;
+  border: none;
+}
+
+#share-button{
+  margin-left: 20px;
+}

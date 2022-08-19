@@ -7,11 +7,23 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
+    "@types/google.visualization": "^0.0.68",
+    "@types/googlemaps": "^3.43.3",
+    "@types/jquery": "^3.5.14",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "typescript": "~4.5.5"
+  },
+  "resolutions": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6"
   }
 }
